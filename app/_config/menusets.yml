@@ -1,0 +1,13 @@
+DNADesign\SetMenu\Model\MenuSet:
+  default_sets:
+    Secondary nav: Secondary Nav
+    Header Right: Header Right
+    Account: Account
+    Quick Links: Quick Links
+    Footer Column 01: Footer
+    Footer Column 02: Footer
+    Footer Column 03: Footer
+    Footer Column 04: Footer
+    Bottom Footer Column 01: Bottom Footer
+    Bottom Footer Column 02: Bottom Footer
+    Bottom Footer Column 03: Bottom Footer

@@ -1,0 +1,6 @@
+---
+Name: app-assets
+---
+SilverStripe\Assets\Conversion\FileConverterManager:
+  converters:
+    - SilverStripe\Assets\Conversion\InterventionImageFileConverter

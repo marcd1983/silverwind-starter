@@ -1,0 +1,18 @@
+--- a/src/Pages/CookiePolicyPageController.php	2026-05-06 05:58:56.000000000 -0500
++++ b/src/Pages/CookiePolicyPageController.php	2026-09-21 21:49:10.674043939 -0500
+@@ -5,7 +5,6 @@
+ namespace Innoweb\CookieConsent\Pages;
+ 
+ use Innoweb\CookieConsent\Forms\CookieConsentForm;
+-use Override;
+ use PageController;
+ 
+ /**
+@@ -23,7 +22,6 @@
+      *
+      * @return CookieConsentForm
+      */
+-    #[Override]
+     public function Form()
+     {
+         return CookieConsentForm::create($this, 'Form');

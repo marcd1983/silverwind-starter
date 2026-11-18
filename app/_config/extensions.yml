@@ -1,0 +1,10 @@
+---
+Name: app-extensions
+---
+# Blocks on every page type, and the optional page slider. Site features
+# (page options, SEO, mega menu, ribbon CTAs, search, consent-gated scripts,
+# security headers) come from antlion/silverwind-site's config.
+Page:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
+    - Antlion\SilverwindBlocks\Extensions\PageSliderExtension
