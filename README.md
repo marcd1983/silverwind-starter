@@ -107,7 +107,9 @@ package, so servers never need Node.
 
 ## Make it yours
 
-- **Brand:** *Settings > Theme* (colours, fonts, header/footer, widths).
+- **Brand:** *Settings > Theme* (colours, fonts, header/footer, widths), or
+  import the client's Figma variables: save them as `design/tokens.json`
+  and run `vendor/bin/sake tasks:import-design-tokens` (see `design/README.md`).
 - **Pages:** build them from blocks; *Services*, *Ribbon CTAs*,
   *Testimonials*, *Partners* and *Staff & Hours* have their own CMS sections.
 - **Code:** `app/` is yours (`Page`, `HomePage`, `BlockPage`, config).
